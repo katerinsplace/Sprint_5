@@ -1,0 +1,8 @@
+# Кэш Python
+__pycache__/
+
+# Кэш тестового фреймворка PyTest
+.pytest_cache/
+
+# Папка настроек редактора VS Code
+.vscode/
