@@ -16,24 +16,24 @@ Selenium WebDriver — для прямого взаимодействия с э�
     cd <SPRINT_5>
 
 2. Создайте и активируйте виртуальное окружение (рекомендуется):
-   # Создание
-   python -m venv venv
+Создание
+    python -m venv venv
    
-   # Активация для Windows
-   venv\Scripts\activate
+Активация для Windows
+    venv\Scripts\activate
    
-   # Активация для macOS/Linux
-   source venv/bin/activate
+Активация для macOS/Linux
+    source venv/bin/activate
 
 3. Установите необходимые зависимости:
    pip install pytest selenium
+
 
 Запуск тестов
 
 Все команды выполняются из корневой папки проекта в активированном виртуальном окружении.
 
 Запуск всех тестов в проекте:
-
   pytest
 
 Запуск тестов с подробным выводом названий (детальный режим):
