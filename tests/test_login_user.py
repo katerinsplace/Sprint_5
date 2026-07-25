@@ -7,8 +7,6 @@ class TestLoginUser:
     def test_login_user_positive(self, driver, create_new_user):
         email, password = create_new_user
 
-        #WebDriverWait(driver, 3).until(expected_conditions.visibility_of_element_located(REG_BUTTON))
-
         driver.find_element(*REG_BUTTON).click()
         WebDriverWait(driver, 3).until(expected_conditions.visibility_of_element_located(NO_ACC_BUTTON))
 
